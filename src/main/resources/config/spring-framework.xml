@@ -28,7 +28,7 @@
     </bean>
     <!-- 缓存配置 -->
     <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
-        <property name="configLocation" value="classpath:${ehcache.configFile}" />
+        <property name="configLocation" value="classpath:cache/ehcache.xml" />
     </bean>
 
 
